@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Source_EarlyObjects_E9\Source_EarlyObjects_E9\Chapter11\pr11-07.cpp">
+    <ClInclude Include="..\NumberArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NumberArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pr11-07.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

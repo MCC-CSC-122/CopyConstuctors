@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NumberArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NumberArray.cpp" />
+    <ClCompile Include="pr11-07.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{7799D7DD-2471-451D-9840-0ED4B8C531F9}</ProjectGuid>
@@ -122,9 +129,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Source_EarlyObjects_E9\Source_EarlyObjects_E9\Chapter11\pr11-07.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
